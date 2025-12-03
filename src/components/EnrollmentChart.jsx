@@ -1,23 +1,17 @@
-import React from "react";
-import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  ResponsiveContainer,
-  Legend
-} from "recharts";
+import React from 'react';
+import { 
+  LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, 
+  ResponsiveContainer, Legend 
+} from 'recharts';
 
 export default function EnrollmentChart() {
   const data = [
-    { month: "Jan", students: 2200, teachers: 135 },
-    { month: "Feb", students: 2280, teachers: 138 },
-    { month: "Mar", students: 2350, teachers: 140 },
-    { month: "Apr", students: 2420, teachers: 140 },
-    { month: "May", students: 2480, teachers: 141 },
-    { month: "Jun", students: 2543, teachers: 142 }
+    { month: 'Jan', students: 2200, teachers: 135 },
+    { month: 'Feb', students: 2280, teachers: 138 },
+    { month: 'Mar', students: 2350, teachers: 140 },
+    { month: 'Apr', students: 2420, teachers: 140 },
+    { month: 'May', students: 2480, teachers: 141 },
+    { month: 'Jun', students: 2543, teachers: 142 },
   ];
 
   return (
@@ -32,9 +26,9 @@ export default function EnrollmentChart() {
 
           <Tooltip
             contentStyle={{
-              backgroundColor: "#fff",
-              border: "1px solid #e5e7eb",
-              borderRadius: "8px"
+              backgroundColor: '#fff',
+              border: '1px solid #e5e7eb',
+              borderRadius: '8px'
             }}
           />
 
@@ -45,7 +39,7 @@ export default function EnrollmentChart() {
             dataKey="students"
             stroke="#3b82f6"
             strokeWidth={3}
-            dot={{ fill: "#3b82f6", r: 4 }}
+            dot={{ fill: '#3b82f6', r: 4 }}
           />
 
           <Line
@@ -53,7 +47,7 @@ export default function EnrollmentChart() {
             dataKey="teachers"
             stroke="#10b981"
             strokeWidth={3}
-            dot={{ fill: "#10b981", r: 4 }}
+            dot={{ fill: '#10b981', r: 4 }}
           />
         </LineChart>
       </ResponsiveContainer>

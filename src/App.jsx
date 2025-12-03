@@ -59,3 +59,24 @@ function AppContent({ activeTab, setActiveTab }) {
 
 // ✅ Default export
 export default App;
+
+
+// git init
+// git add .
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/sushilrajbhandari002/Maggu_Ver1.git
+// git push -u origin main
+
+
+
+// git add 
+// git commit -m "updated navbar"
+// git push origin 
+
+
+// git clone "https://github.com/sushilrajbhandari002/Maggu_Ver1.git"
+
+// npm install
+
+// git pull origin main
